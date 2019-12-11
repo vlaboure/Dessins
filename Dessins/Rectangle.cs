@@ -16,6 +16,7 @@ namespace metier
         {
             ptHautG = p1;
             ptBasD = p2;
+            Color = "yellow";
             longueur = GetLongLarg(ptHautG.X, ptBasD.X);
             larg = GetLongLarg(ptHautG.Y, ptBasD.Y);
         }

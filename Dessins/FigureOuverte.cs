@@ -16,6 +16,7 @@ namespace metier
             {//sortie des points
                 points[i] = SortPoint();
             }
+            Color = "brown";
         }
 
         public override string Dessiner()

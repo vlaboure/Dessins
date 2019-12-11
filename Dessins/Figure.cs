@@ -8,7 +8,10 @@ namespace metier
 {
     public abstract class Figure
     {
-        protected string color;
+        private string color;
+
+        public string Color { get => color; set => color = value; }
+
         public abstract string Dessiner();
         public Figure()
         {

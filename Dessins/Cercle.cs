@@ -12,6 +12,7 @@ namespace metier
         private double rayon;
         public Cercle(Point c, Double r)
         {
+            Color = "blue";
             centre = c;
             rayon = r;
         }
